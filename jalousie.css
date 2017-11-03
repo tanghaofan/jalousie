@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.jalousie {
+	list-style: none;
+	width: 302px;
+}
+.jls-item {
+	position: relative;
+	height: 50px;
+	border: 1px dashed black;
+	overflow: hidden;
+}
+.jls-item .jls-cell{
+	position: absolute;
+	top: 0;
+	width: 300px;
+	height: 100px;
+}
+.jls-item .jls-cell>p {
+	width: 300px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 20px;
+}
